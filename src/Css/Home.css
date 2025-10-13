@@ -958,7 +958,7 @@ text-align: center;
     .what-we-do-sections ul {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 16px;
         flex-wrap: wrap;
         justify-content: center;
     }

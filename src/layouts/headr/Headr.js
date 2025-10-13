@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import  { useEffect, useState } from 'react'
 import '../../Css/Headr.css'
 import Logo from '../image/logo.svg'
 import { Link, Outlet } from 'react-router-dom'
@@ -6,9 +6,7 @@ import { IoSearch } from "react-icons/io5";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaAngleDown } from "react-icons/fa";
 import { FaChevronRight } from "react-icons/fa";
-import { BsDiamond } from "react-icons/bs";
 import { MdOutlineMenu } from "react-icons/md";
-import { IoCloseSharp } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 
 function Headr() {
@@ -134,7 +132,7 @@ function openMenu5() {
                     <Link to="CourseLeyouteOne" className='navbar_ul_link '> Courses Leyout 1</Link>
                 </li>
                 <li className='navbar_ul_li navbar_Link_li'>
-                    <Link to="CourseLeyouteTwo" className='navbar_ul_link'> Courses Leyout 2</Link>
+                    <Link to="#" className='navbar_ul_link'> Courses Leyout 2</Link>
                 </li>
             </ul>
             <Outlet/>

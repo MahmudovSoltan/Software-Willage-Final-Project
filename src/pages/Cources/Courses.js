@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import '../../Css/Courses.css'
 import { FaChevronRight } from "react-icons/fa6";
 import { IoFilterSharp } from "react-icons/io5";
