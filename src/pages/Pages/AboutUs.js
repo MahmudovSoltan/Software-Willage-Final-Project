@@ -52,7 +52,15 @@ function AboutUs() {
           slidesToScroll: 2,
           infinite: true,
           dots: true,
-
+        },
+      },
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
         },
       },
     ],
@@ -298,374 +306,404 @@ function AboutUs() {
       <section className="timeline-section ">
         <div className="display-flex">
           {sliderState[0] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
           {sliderState[1] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
           {sliderState[2] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
           {sliderState[3] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
           {sliderState[4] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
           {sliderState[5] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
           {sliderState[6] && (
-            <Fade direction="left" triggerOnce="true" duration={2500}>
-              <div className="timline-left">
-                <div className="mission_title">OUR HISTORY</div>
-                <h2 className="timline-title">
-                  With Your Business More Than 30 Years
-                </h2>
-                <p className="timline-text">
-                  Vestibulum morbi blandit cursus risus. Augue neque gravida in
-                  fermentum et sollicitudin ac orci phasellus. Massa massa
-                  ultricies mi quis hendrerit. Interdum consectetur libero id
-                  faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
-                  odio.
-                </p>
-              </div>
-            </Fade>
+            <div className="timeline-section_text">
+              <Fade direction="left" triggerOnce="true" duration={2500}>
+                <div className="timline-left">
+                  <div className="mission_title">OUR HISTORY</div>
+                  <h2 className="timline-title">
+                    With Your Business More Than 30 Years
+                  </h2>
+                  <p className="timline-text">
+                    Vestibulum morbi blandit cursus risus. Augue neque gravida
+                    in fermentum et sollicitudin ac orci phasellus. Massa massa
+                    ultricies mi quis hendrerit. Interdum consectetur libero id
+                    faucibus nisl. Ornare quam viverra orci sagittis eu volutpat
+                    odio.
+                  </p>
+                </div>
+              </Fade>
+            </div>
           )}
 
           <div className="timline-right">
             {sliderState[0] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-06.jpg"
-                    alt="image-7"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-06.jpg"
+                      alt="image-7"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
             {sliderState[1] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-02.jpg"
-                    alt="image-8"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-02.jpg"
+                      alt="image-8"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
             {sliderState[2] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-05.jpg"
-                    alt="image-9"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-05.jpg"
+                      alt="image-9"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
             {sliderState[3] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-07.jpg"
-                    alt="image-3"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-07.jpg"
+                      alt="image-3"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
             {sliderState[4] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-09.jpg"
-                    alt="image-3"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-09.jpg"
+                      alt="image-3"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
             {sliderState[5] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-04.jpg"
-                    alt="image-3"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-04.jpg"
+                      alt="image-3"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
             {sliderState[6] && (
-              <Fade direction="right" triggerOnce="true" duration={2500}>
-                <div className="timline-main-imag">
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-03.jpg"
-                    alt="image-3"
-                  />
-                </div>
-              </Fade>
+              <div className="timline-right_img">
+                <Fade direction="right" triggerOnce="true" duration={2500}>
+                  <div className="timline-main-imag">
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-03.jpg"
+                      alt="image-3"
+                    />
+                  </div>
+                </Fade>
+              </div>
             )}
           </div>
         </div>
-        <div className="timline-main">
-          <div className="timeline-items" onClick={() => setSliderOnclick(0)}>
-            {sliderState[0] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-06.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[0] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[0] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">1993</div>
-          </div>
+        <div className="witdh">
+          <div className="timline-main">
+            <div className="timeline-items" onClick={() => setSliderOnclick(0)}>
+              {sliderState[0] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-06.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[0] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[0] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">1993</div>
+            </div>
 
-          <div className="timeline-items" onClick={() => setSliderOnclick(1)}>
-            {sliderState[1] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-02.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[1] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[1] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">2001</div>
-          </div>
-          <div className="timeline-items" onClick={() => setSliderOnclick(2)}>
-            {sliderState[2] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-05.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[2] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[2] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">2003</div>
-          </div>
-          <div className="timeline-items" onClick={() => setSliderOnclick(3)}>
-            {sliderState[3] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-07.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[3] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[3] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">2007</div>
-          </div>
-          <div className="timeline-items" onClick={() => setSliderOnclick(4)}>
-            {sliderState[4] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-09.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[4] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[4] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">2016</div>
-          </div>
-          <div className="timeline-items" onClick={() => setSliderOnclick(5)}>
-            {sliderState[5] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-04.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[5] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[5] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">2019</div>
-          </div>
-          <div className="timeline-items" onClick={() => setSliderOnclick(6)}>
-            {sliderState[6] && (
-              <div className="timeline-img">
-                <Fade direction="left" triggerOnce="true" duration={2500}>
-                  <img
-                    src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-03.jpg"
-                    alt="image-3"
-                  />
-                </Fade>
-              </div>
-            )}
-            {sliderState[6] && (
-              <div className="timeline-text">
-                <Fade direction="up" triggerOnce="true" duration={2500}>
-                  Private Limited Established
-                </Fade>
-              </div>
-            )}
-            <div
-              className={`timeline-dot ${
-                sliderState[6] ? "timlline-dot-bck" : ""
-              }`}
-            ></div>
-            <div className="timeline-date">2023</div>
+            <div className="timeline-items" onClick={() => setSliderOnclick(1)}>
+              {sliderState[1] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-02.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[1] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[1] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">2001</div>
+            </div>
+            <div className="timeline-items" onClick={() => setSliderOnclick(2)}>
+              {sliderState[2] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-05.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[2] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[2] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">2003</div>
+            </div>
+            <div className="timeline-items" onClick={() => setSliderOnclick(3)}>
+              {sliderState[3] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-07.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[3] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[3] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">2007</div>
+            </div>
+            <div className="timeline-items" onClick={() => setSliderOnclick(4)}>
+              {sliderState[4] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-09.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[4] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[4] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">2016</div>
+            </div>
+            <div className="timeline-items" onClick={() => setSliderOnclick(5)}>
+              {sliderState[5] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-04.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[5] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[5] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">2019</div>
+            </div>
+            <div className="timeline-items" onClick={() => setSliderOnclick(6)}>
+              {sliderState[6] && (
+                <div className="timeline-img">
+                  <Fade direction="left" triggerOnce="true" duration={2500}>
+                    <img
+                      src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2023/06/blog-03.jpg"
+                      alt="image-3"
+                    />
+                  </Fade>
+                </div>
+              )}
+              {sliderState[6] && (
+                <div className="timeline-text">
+                  <Fade direction="up" triggerOnce="true" duration={2500}>
+                    Private Limited Established
+                  </Fade>
+                </div>
+              )}
+              <div
+                className={`timeline-dot ${
+                  sliderState[6] ? "timlline-dot-bck" : ""
+                }`}
+              ></div>
+              <div className="timeline-date">2023</div>
+            </div>
           </div>
         </div>
       </section>

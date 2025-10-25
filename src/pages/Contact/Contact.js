@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaChevronRight } from "react-icons/fa6";
 import { Fade } from "react-awesome-reveal";
 import "../../Css/Contact.css";
@@ -6,16 +6,6 @@ import { SlPhone } from "react-icons/sl";
 import { MdOutlineEmail } from "react-icons/md";
 import { LuMapPin } from "react-icons/lu";
 import { FaArrowRightLong } from "react-icons/fa6";
-
-const mapContainerStyle = {
-  width: "100%",
-  height: "400px",
-};
-
-const center = {
-  lat: -3.745,
-  lng: -38.523,
-};
 
 function Contact() {
   const [name, setName] = useState("");
@@ -106,11 +96,18 @@ function Contact() {
         </div>
       </div>
       <div className="contact_form">
+      <div className="contact_left">
         <Fade direction="left" triggerOnce="true" duration={2000}>
           <div className="contact_img">
-            <img src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2024/03/service-detail-01.jpg" />
+            <img
+              alt="contact-imgage"
+              src="https://coaching.thimpress.com/business-consulting/wp-content/uploads/sites/52/2024/03/service-detail-01.jpg"
+            />
           </div>
         </Fade>
+      </div>
+     <div className="contact_right">
+
 
         <Fade direction="right" triggerOnce="true" duration={2000}>
           <div className="contact_form_validation">
@@ -118,7 +115,7 @@ function Contact() {
               We’re glad to discuss your organisation’s situation. So please
               contact us via the details below, or enter your request.
             </p>
-            <div style={{ width: "100vw", height: "100vh", display: "flex" }}>
+            <div>
               <form class="formContainer">
                 <div class="formElement">
                   <input
@@ -185,10 +182,10 @@ function Contact() {
                 </button>
                 {error && <p className="red">{error}</p>}
               </form>
-              
             </div>
           </div>
         </Fade>
+     </div>
       </div>
       <br />
       <br />
